@@ -148,7 +148,7 @@ public class ItemController {
         //System.out.println("~~~~~~~~~~~~~~~~"+itemList);
 
         //不需要统计总数
-        //j类报红要在maven仓库里导入
+        //j类报红要在maven仓库里导入 test
         Integer count = itemService.findCount();
 
         //String fileLocation1 = request.getServletContext().getRealPath("/WEB-INF/report/");
