@@ -153,6 +153,7 @@ public class ItemController {
 
         //String fileLocation1 = request.getServletContext().getRealPath("/WEB-INF/report/");
         //test01
+        System.out.println("test");
 
         String fileLocation = request.getRealPath("/WEB-INF/report/");
         System.out.println("~~~~~~~~~~~~~~~~"+fileLocation);
