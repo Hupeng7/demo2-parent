@@ -152,6 +152,7 @@ public class ItemController {
         Integer count = itemService.findCount();
 
         //String fileLocation1 = request.getServletContext().getRealPath("/WEB-INF/report/");
+        //test01
 
         String fileLocation = request.getRealPath("/WEB-INF/report/");
         System.out.println("~~~~~~~~~~~~~~~~"+fileLocation);
